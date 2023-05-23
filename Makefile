@@ -11,6 +11,7 @@ lint:
 	pylint --disable=R,C *.py mylib/*.py
 test:
 	#test
+    pytest -vv --cov=mylib
 build:
     #build container
 deploy:
